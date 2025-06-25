@@ -1,0 +1,22 @@
+{
+	"name": "demo-wormholescan-api",
+	"version": "1.0.0",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"ntt-tokens": "npx tsx src/scripts/fetch-ntt-tokens.ts",
+		"operations": "npx tsx src/scripts/fetch-operations.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "Simple examples of how to fetch data from WormholeScan API",
+	"dependencies": {
+		"@wormhole-foundation/sdk": "^2.2.0",
+		"axios": "^1.6.0"
+	},
+	"devDependencies": {
+		"@types/node": "^20.0.0",
+		"tsx": "^4.19.0"
+	}
+}
