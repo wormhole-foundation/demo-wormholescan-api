@@ -5,18 +5,20 @@
 	"main": "index.js",
 	"scripts": {
 		"ntt-tokens": "npx tsx src/scripts/fetch-ntt-tokens.ts",
-		"operations": "npx tsx src/scripts/fetch-operations.ts"
+		"operations": "npx tsx src/scripts/fetch-operations.ts",
+		"typecheck": "tsc --noEmit"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"description": "Simple examples of how to fetch data from WormholeScan API",
 	"dependencies": {
-		"@wormhole-foundation/sdk": "^2.2.0",
+		"@wormhole-foundation/sdk": "^3.11.0",
 		"axios": "^1.6.0"
 	},
 	"devDependencies": {
-		"@types/node": "^20.0.0",
-		"tsx": "^4.19.0"
+		"@types/node": "^24.10.0",
+		"tsx": "^4.19.0",
+		"typescript": "^5.9.3"
 	}
 }
