@@ -13,7 +13,7 @@
 	"license": "ISC",
 	"description": "Simple examples of how to fetch data from WormholeScan API",
 	"dependencies": {
-		"@wormhole-foundation/sdk": "^4.9.1",
+		"@wormhole-foundation/sdk": "^4.11.0",
 		"axios": "^1.6.0"
 	},
 	"devDependencies": {
